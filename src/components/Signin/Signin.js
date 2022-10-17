@@ -27,13 +27,15 @@ class Signin extends React.Component {
             })
          })
             .then(response => response.json())
-            .then(data => {
-                data === 'success' ? this.props.onRouteChange('home') : '' 
-            })
+            .then(user => {
+                if(user.id) {
+                    this.props.loadUser(user);
+                    this.props.onRouteChange('home');
+                }
+               })
     }
 
     render() {
-        const { onRouteChange } = this.props;
         return(
             <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-1 mw6 shadow-5 center">
             <main className="pa4 black-80">
