@@ -12,7 +12,7 @@ import Clarifai from 'clarifai';
 
 const app = new Clarifai.App({
   //Add here your clarifai api key
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "17fabc0319ef4432a4fc90afb98c8fc6",
 })
 
 const initialState ={
