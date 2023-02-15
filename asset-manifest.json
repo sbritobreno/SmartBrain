@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SmartBrain/static/css/main.bad7799d.css",
+    "main.js": "/SmartBrain/static/js/main.7c00d721.js",
+    "index.html": "/SmartBrain/index.html",
+    "main.bad7799d.css.map": "/SmartBrain/static/css/main.bad7799d.css.map",
+    "main.7c00d721.js.map": "/SmartBrain/static/js/main.7c00d721.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bad7799d.css",
+    "static/js/main.7c00d721.js"
+  ]
+}
